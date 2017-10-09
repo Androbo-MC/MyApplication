@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
             textView.setText(editText.getText().toString());
 
+            String str = "12345";
+
             recentOperator = R.id.button_equal;
             result = 0;
             isOperatorKeyPushed = false;
